@@ -1,12 +1,18 @@
 package com.thilshan.quizapp.service;
 import com.thilshan.quizapp.Question;
+import com.thilshan.quizapp.dau.QuestionDau;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class QuestionService {
+
+    @Autowired
+    QuestionDau questionDau;
+
     public List<Question> getAllQuestions() {
-        return null;
+       return questionDau.findAll();
     }
 }
