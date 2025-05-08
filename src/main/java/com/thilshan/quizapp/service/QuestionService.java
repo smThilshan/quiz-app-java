@@ -19,4 +19,9 @@ public class QuestionService {
     public List<Question> getQuestionsByCategory(String category) {
         return questionDau.findByCategory(category);
     }
+
+    public String addQuestion(Question question) {
+        questionDau.save(question);
+        return "success";
+    }
 }
