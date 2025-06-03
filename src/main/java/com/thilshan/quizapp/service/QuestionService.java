@@ -1,5 +1,5 @@
 package com.thilshan.quizapp.service;
-import com.thilshan.quizapp.Question;
+import com.thilshan.quizapp.model.Question;
 import com.thilshan.quizapp.dau.QuestionDau;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
