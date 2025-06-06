@@ -34,3 +34,9 @@ public class QuestionController {
 
     }
 }
+
+//generate
+
+//getQuestions
+
+//getScore
